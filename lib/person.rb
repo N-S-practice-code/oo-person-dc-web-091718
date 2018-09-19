@@ -28,5 +28,8 @@ class Person
     
   end
   
+  def take_bath
+    
+  end
   
 end
