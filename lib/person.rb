@@ -1,5 +1,5 @@
 class Person
-  def name=(new_name)
+  def hidden_field_tag
     @name = new_name
   end
  
