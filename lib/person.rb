@@ -16,5 +16,17 @@ class Person
     
   end
   
+  def clean?
+    
+  end
+  
+  def clean?
+    
+  end
+  
+  def clean?
+    
+  end
+  
   
 end
