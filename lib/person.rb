@@ -36,7 +36,7 @@ class Person
     
   end
   
-  def call_friend
+  def start_conversation
     
   end
 end
