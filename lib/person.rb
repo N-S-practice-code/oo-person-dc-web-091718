@@ -15,6 +15,7 @@ class Person
     @happiness=value
     @happiness=10 if @happiness>10
   end
+  hygiene
   
   def clean?
     
