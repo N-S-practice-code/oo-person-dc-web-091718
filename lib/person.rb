@@ -31,8 +31,9 @@ class Person
     @happiness>7
   end
   
-  def get_paid
-    
+  def get_paid(salary)
+    @bank_account+=salary
+    'all about the benjamins'
   end
   
   def take_bath
