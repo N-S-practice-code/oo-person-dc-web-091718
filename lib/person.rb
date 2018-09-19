@@ -24,7 +24,7 @@ class Person
     
   end
   
-  def clean?
+  def take_bath
     
   end
   
