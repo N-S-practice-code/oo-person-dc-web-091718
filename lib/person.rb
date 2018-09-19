@@ -35,6 +35,4 @@ class Person
   def call_friend
     
   end
-  
-  
 end
