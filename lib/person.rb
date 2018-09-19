@@ -44,7 +44,7 @@ class Person
   def work_out
     hygiene-=4
     happiness+=2
-    
+    "♪ another one bites the dust ♫"
   end
   
   def call_friend(friend)
