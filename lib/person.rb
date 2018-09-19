@@ -37,6 +37,6 @@ class Person
   end
   
   def start_conversation(person_other, topic)
-    
+    return "blah blah sun blah rain"
   end
 end
