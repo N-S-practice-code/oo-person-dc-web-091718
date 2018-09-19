@@ -10,10 +10,6 @@ class Person
     @bank_account=25
     @happiness=8
   end
- 
-  def name
-    @name
-  end
   
   def happiness=(value)
     @happiness=value
