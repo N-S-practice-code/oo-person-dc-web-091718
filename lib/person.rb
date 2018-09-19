@@ -1,11 +1,14 @@
 class Person
   
+  attr_reader :@name
   attr_accessor :bank_account
-  attr_reader :bank_account
+  attr_reader :@happiness
   
   
   def initlize(name)
     @name = name
+    @bank_account=25
+    @happiness=0
   end
  
   def name
