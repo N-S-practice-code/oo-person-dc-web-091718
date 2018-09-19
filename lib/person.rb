@@ -15,6 +15,11 @@ class Person
     @name
   end
   
+  def happiness=(value)
+    @happiness=value
+    @happiness=10 if @happiness>10
+  end
+  
   def clean?
     
   end
