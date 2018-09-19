@@ -12,7 +12,9 @@ class Person
     @name
   end
   
-  def
+  def clean?
+    
+  end
   
   
 end
