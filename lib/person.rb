@@ -32,7 +32,7 @@ class Person
     
   end
   
-  def call_friend
+  def call_friend(freind)
     
   end
   
