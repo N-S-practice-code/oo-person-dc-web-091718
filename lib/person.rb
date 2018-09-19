@@ -28,7 +28,7 @@ class Person
     
   end
   
-  def take_bath
+  def work_out
     
   end
   
