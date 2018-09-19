@@ -32,8 +32,9 @@ class Person
     
   end
   
-  def take_bath
+  def call_friend
     
   end
+  
   
 end
