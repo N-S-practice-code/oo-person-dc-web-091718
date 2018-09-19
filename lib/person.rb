@@ -32,11 +32,11 @@ class Person
     
   end
   
-  def call_friend(freind)
+  def call_friend(friend)
     
   end
   
-  def start_conversation()
+  def start_conversation(person_other, topic)
     
   end
 end
