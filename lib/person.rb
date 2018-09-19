@@ -20,7 +20,7 @@ class Person
     
   end
   
-  def clean?
+  def get_paid
     
   end
   
