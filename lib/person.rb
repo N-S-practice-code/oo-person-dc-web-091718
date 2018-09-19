@@ -3,7 +3,7 @@ class Person
   attr_reader :@name
   attr_accessor :bank_account
   attr_reader :@happiness
-  
+  attr_reader :hygiene
   
   def initlize(name)
     @name = name
@@ -14,14 +14,14 @@ class Person
   def happiness=(value)
     @happiness=value
     @happiness=10 if @happiness>10
+    @happiness=0 if @happiness<0
   end
   
-  def happiness=(value)
+  def hygiene=(value)
     @hygiene=value
-    @happiness=10 if @happiness>10
-    
+    @hygiene=10 if @hygiene>10
+    @hygiene=0 if @hygiene<0
   end
-  hygiene
   
   def clean?
     
