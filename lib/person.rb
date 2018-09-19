@@ -9,7 +9,7 @@ class Person
     @name = name
     @bank_account=25
     @happiness=8
-    @hygiene=
+    @hygiene=8
   end
   
   def happiness=(value)
@@ -50,7 +50,7 @@ class Person
   
   def call_friend(friend)
     
-    "Hi #{friend.nam}! It's #{name}. How are you?"
+    "Hi #{friend.name}! It's #{name}. How are you?"
   end
   
   def start_conversation(person_other, topic)
