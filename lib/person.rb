@@ -5,7 +5,7 @@ class Person
   attr_reader :happiness
   attr_reader :hygiene
   
-  def initlize(name)
+  def initialize(name)
     @name = name
     @bank_account=25
     @happiness=8
