@@ -60,6 +60,11 @@ class Person
       person_other.happiness-=2
       return 'blah blah partisan blah lobbyist'
     end
+    if topic == 'politics'
+      self.happiness+=2
+      person_other.happiness+=1
+      return 'blah blah partisan blah lobbyist'
+    end
     return "blah blah sun blah rain"
     return 'blah blah partisan blah lobbyist'
     return "blah blah blah blah blah"
