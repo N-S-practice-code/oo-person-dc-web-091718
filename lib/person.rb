@@ -42,6 +42,8 @@ class Person
   end
   
   def work_out
+    hygiene-=4
+    happiness+=2
     
   end
   
