@@ -39,7 +39,7 @@ class Person
   
   def take_bath
     puts hygiene
-    hygiene+=4
+    self.hygiene+=4
     "♪ Rub-a-dub just relaxing in the tub ♫"
   end
   
